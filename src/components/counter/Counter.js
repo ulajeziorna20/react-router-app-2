@@ -21,10 +21,8 @@ const Counter = (props) => {
 
   const buttonHandleChange = (action) => {
     let currentCounterValue = counterValue
-    console.log(currentCounterValue);
     let currentStepValue = stepValue
-    // console.log(currentStepValue)
-    console.log(props.initValue)
+
 
     if (action === "add-x") {
       currentCounterValue += currentStepValue
