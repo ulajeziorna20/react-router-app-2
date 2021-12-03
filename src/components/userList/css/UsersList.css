@@ -1,52 +1,49 @@
 h1 {
-	font-family: Arial, Helvetica, sans-serif;
-	color: darkblue;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkblue;
 }
 
 input {
-	width: 200px;
-	height: 40px;
-	outline: white;
-	border: white;
-	font-size: 18px;
-	padding-left: 10px;
-	margin-bottom: 20px;
-	color: rgb(61, 60, 60);
+  width: 200px;
+  height: 40px;
+  outline: white;
+  border: white;
+  font-size: 18px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  color: rgb(61, 60, 60);
 }
 
 button {
-	width: 80px;
-	height: 42px;
-	margin-left: 15px;
-	background-color: #0066ff;
-	border: #0066ff;
-	color: white;
+  width: 80px;
+  height: 42px;
+  margin-left: 15px;
+  background-color: #0066ff;
+  border: #0066ff;
+  color: white;
 }
 
 button:hover {
-	background-color: #003399;
+  background-color: #003399;
 }
 
 .user-list {
-	width: 350px;
-	height: auto;
+  width: 350px;
+  height: auto;
 }
 
 /* ========= Styles users-list-navigation*/
 
-
 .subpages-navigation {
-	text-align: left;
+  text-align: left;
 }
 
-
 .link-subpage-list {
-
-	color: rgba(185, 243, 253, 0.876);
-	text-decoration: none;
+  color: rgba(185, 243, 253, 0.876);
+  text-decoration: none;
 }
 
 .link-subpage-list:hover {
-	color: rgb(64, 179, 121);
-	text-decoration: underline;
+  color: rgb(64, 179, 121);
+  text-decoration: underline;
 }

@@ -6,7 +6,10 @@ function About() {
     <>
       <main>
         <h2>I am About Subpage!!! That's amazing.</h2>
-        <p>I was a trial page like SecondPage! Now I am one of the children of the App Route, what do you think?</p>
+        <p>
+          I was a trial page like SecondPage! Now I am one of the children of
+          the App Route, what do you think?
+        </p>
       </main>
       <h5>Have you been to these subpages?</h5>
       <nav className="subpages-navigation">

@@ -23,7 +23,6 @@ const Counter = (props) => {
     let currentCounterValue = counterValue
     let currentStepValue = stepValue
 
-
     if (action === "add-x") {
       currentCounterValue += currentStepValue
     } else if (action === "reset") {

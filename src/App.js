@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css"
 import { Routes, Route } from "react-router-dom"
 import HomePage from "./components/home-page/HomePage"
 import UsersList from "./components/userList/UsersList"
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Routes>
+        <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="users-list" element={<UsersList />} />
           <Route path="counter" element={<Counter initValue={108} />} />
@@ -19,7 +19,7 @@ function App() {
         </Routes>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -1,17 +1,17 @@
 .show-hide-clock-key {
-    margin-left: 10px;
-    color: red;
-    font-weight: bold;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
+  margin-left: 10px;
+  color: red;
+  font-weight: bold;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
 }
 
 .show-hide-clock-key:hover {
-    outline: none;
-    border: 1px solid #4195fc;
-    /* create a BIG glow */
-    box-shadow: 0px 0px 14px #4195fc;
-    -moz-box-shadow: 0px 0px 14px #4195fc;
-    -webkit-box-shadow: 0px 0px 14px #4195fc;
+  outline: none;
+  border: 1px solid #4195fc;
+  /* create a BIG glow */
+  box-shadow: 0px 0px 14px #4195fc;
+  -moz-box-shadow: 0px 0px 14px #4195fc;
+  -webkit-box-shadow: 0px 0px 14px #4195fc;
 }

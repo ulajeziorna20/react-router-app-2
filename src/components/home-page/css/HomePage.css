@@ -4,8 +4,6 @@ h3 {
   border-width: 1px;
 }
 
-
-
 .main-navigation {
   text-align: left;
 }
@@ -17,4 +15,4 @@ h3 {
 .link-main-list:hover {
   color: rgb(168, 220, 255);
   text-decoration: none;
-} 
+}
