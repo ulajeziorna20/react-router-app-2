@@ -9,23 +9,23 @@ function About() {
         <p>I was a trial page like SecondPage! Now I am one of the children of the App Route, what do you think?</p>
       </main>
       <h5>Have you been to these subpages?</h5>
-      <nav className="second-home-navigation">
+      <nav className="subpages-navigation">
         <ul>
           <li>
             {" "}
-            <Link to="/users-list" className="link-main-list">
+            <Link to="/users-list" className="link-subpage-list">
               UsersList
             </Link>
           </li>
-          {/* <li>
-            {" "}
-            <Link to="/second-home" className="link-main-list">
-              Second Home
-            </Link>
-          </li> */}
           <li>
             {" "}
-            <Link to="/counter" className="link-main-list">
+            <Link to="/second-home" className="link-subpage-list">
+              Second Home
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link to="/counter" className="link-subpage-list">
               Counter
             </Link>
           </li>

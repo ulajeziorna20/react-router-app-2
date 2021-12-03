@@ -48,7 +48,7 @@ const UsersList = () => {
         <ListToDisplay userList={userList} deleteUserMth={deleteUser} />
       </div>
       <h5>Have you been to these subpages?</h5>
-      <nav className="users-list-navigation">
+      <nav className="subpages-navigation">
         <ul>
           <li>
             {" "}
