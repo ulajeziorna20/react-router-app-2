@@ -1,0 +1,20 @@
+h3 {
+  color: rgb(15, 108, 124);
+  border-bottom: 2px double gray;
+  border-width: 1px;
+}
+
+
+
+.main-navigation {
+  text-align: left;
+}
+
+.link-main-list {
+  color: rgb(94, 180, 230);
+}
+
+.link-main-list:hover {
+  color: rgb(168, 220, 255);
+  text-decoration: none;
+} 
