@@ -13,14 +13,14 @@ function HomePage() {
         <h3>Where would you go now? :D</h3>
       </header>
 
-      {/* <nav className="main-navigation">
+      <nav className="main-navigation">
         <ul>
           <li>
             <Link to="/users-list" className="link-main-list">
               Users List
             </Link>
           </li>
-          <li>
+          {/* <li>
             {" "}
             <Link to="/second-home" className="link-main-list">
               Second Home
@@ -37,9 +37,9 @@ function HomePage() {
             <Link to="/counter" className="link-main-list">
               Counter
             </Link>
-          </li>
-        </ul> */}
-      {/* </nav> */}
+          </li> */}
+        </ul>
+      </nav>
       <Outlet />
     </>
   )
