@@ -31,13 +31,13 @@ function HomePage() {
             <Link to="/about" className="link-main-list">
               About
             </Link>
-          </li>
+          </li> */}
           <li>
             {" "}
             <Link to="/counter" className="link-main-list">
               Counter
             </Link>
-          </li> */}
+          </li>
         </ul>
       </nav>
       <Outlet />
