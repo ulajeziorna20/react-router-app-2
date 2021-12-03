@@ -31,3 +31,22 @@ button:hover {
 	width: 350px;
 	height: auto;
 }
+
+/* ========= Styles users-list-navigation*/
+
+
+.users-list-navigation {
+	text-align: left;
+}
+
+
+.link-subpage-list {
+
+	color: rgba(185, 243, 253, 0.876);
+	text-decoration: none;
+}
+
+.link-subpage-list:hover {
+	color: rgb(64, 179, 121);
+	text-decoration: underline;
+}

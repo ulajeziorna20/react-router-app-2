@@ -48,28 +48,28 @@ const UsersList = () => {
         <ListToDisplay userList={userList} deleteUserMth={deleteUser} />
       </div>
       <h5>Have you been to these subpages?</h5>
-      {/* <nav className="users-list-navigation">
+      <nav className="users-list-navigation">
         <ul>
           <li>
             {" "}
-            <Link to="/second-home" className="link-main-list">
+            <Link to="/second-home" className="link-subpage-list">
               Second Home
             </Link>
           </li>
           <li>
             {" "}
-            <Link to="/about" className="link-main-list">
+            <Link to="/about" className="link-subpage-list">
               About
             </Link>
           </li>
           <li>
             {" "}
-            <Link to="/counter" className="link-main-list">
+            <Link to="/counter" className="link-subpage-list">
               Counter
             </Link>
           </li>
         </ul>
-      </nav> */}
+      </nav>
 
       <nav className="main-navigation">
         <Link to="/" className="link-main-list">
